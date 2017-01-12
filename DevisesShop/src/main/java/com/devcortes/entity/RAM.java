@@ -14,31 +14,30 @@ public class RAM implements Serializable{
 	@GeneratedValue
 	private Long id;
 	
-	@Column(name = "producer", nullable = false)
+	@Column(nullable = false)
 	private String producer;
 	
-	@Column(name = "model", nullable = false)
-	private String model;
+	@Column(nullable = false)
+	private String series;
 	
-	@Column(name = "volume", nullable = false)
+	@Column(nullable = false)
 	private Integer volume;
 	
 	public RAM() {}
 	/**
 	 * Constructor with parameters for RAM
 	 * @param producer
-	 * @param model
+	 * @param series
 	 * @param volume
 	 */
-	public RAM(String producer, String model, Integer volume) {			
+	public RAM(String producer, String series, Integer volume) {		
 		this.producer = producer;
-		this.model = model;
+		this.series = series;
 		this.volume = volume;
 	}
-
 	public Long getId() {
 		return id;
-	}
+	}	
 	public void setId(Long id) {
 		this.id = id;
 	}
@@ -48,11 +47,11 @@ public class RAM implements Serializable{
 	public void setProducer(String producer) {
 		this.producer = producer;
 	}
-	public String getModel() {
-		return model;
+	public String getSeries() {
+		return series;
 	}
-	public void setModel(String model) {
-		this.model = model;
+	public void setSeries(String series) {
+		this.series = series;
 	}
 	public Integer getVolume() {
 		return volume;
@@ -63,7 +62,7 @@ public class RAM implements Serializable{
 
 	@Override
 	public String toString() {
-		return "RAM [id=" + id + ", producer=" + producer + ", model=" + model + ", volume=" + volume + "]";
+		return "RAM [id=" + id + ", producer=" + producer + ", series=" + series + ", volume=" + volume + "]";
 	}
 
 	

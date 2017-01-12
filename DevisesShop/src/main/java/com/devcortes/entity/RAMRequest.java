@@ -1,10 +1,7 @@
 package com.devcortes.entity;
-
-import javax.persistence.Column;
-
 public class RAMRequest {
 	private String producer;	
-	private String model;	
+	private String series;	
 	private Integer volume;
 	public String getProducer() {
 		return producer;
@@ -12,11 +9,11 @@ public class RAMRequest {
 	public void setProducer(String producer) {
 		this.producer = producer;
 	}
-	public String getModel() {
-		return model;
+	public String getSeries() {
+		return series;
 	}
-	public void setModel(String model) {
-		this.model = model;
+	public void setSeries(String series) {
+		this.series = series;
 	}
 	public Integer getVolume() {
 		return volume;
