@@ -1,12 +1,12 @@
-package com.devcortes.dao;
+package com.devcortes.componets.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.devcortes.entity.Client;
-import com.devcortes.entity.ClientRequest;
+import com.devcortes.componets.entity.Client;
+import com.devcortes.componets.entity.ClientRequest;
 import com.devcortes.repository.IClientRepository;
 /**
  * Dao class for entity Client contain methods for add, remove, update, get clients

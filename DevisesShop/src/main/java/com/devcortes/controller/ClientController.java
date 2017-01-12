@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.devcortes.entity.Client;
-import com.devcortes.entity.ClientRequest;
+import com.devcortes.componets.entity.Client;
+import com.devcortes.componets.entity.ClientRequest;
 import com.devcortes.service.ClientService;
 /**
  * Controller for entity Client contain GET, POST, PUT, DELETE methods
