@@ -3,5 +3,6 @@
 	<persistence-unit name="DevisesShop">
 		<class>org.hibernate.Hibernate</class>
 		<class>com.devcortes.entity.Client</class>
+		<class>com.devcortes.entity.RAM</class>
 	</persistence-unit>
 </persistence>
