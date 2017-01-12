@@ -1,9 +1,9 @@
-package com.devcortes.dao;
+package com.devcortes.componets.service;
 
 import java.util.List;
 
-import com.devcortes.entity.Client;
-import com.devcortes.entity.ClientRequest;
+import com.devcortes.componets.entity.Client;
+import com.devcortes.componets.entity.ClientRequest;
 
 public interface IClientDao {
 	public void addClient(ClientRequest clientRequest);

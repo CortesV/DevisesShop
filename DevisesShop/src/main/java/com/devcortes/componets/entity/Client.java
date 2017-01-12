@@ -1,4 +1,4 @@
-package com.devcortes.entity;
+package com.devcortes.componets.entity;
 
 import java.io.Serializable;
 

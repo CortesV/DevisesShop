@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.devcortes.entity.RAM;
-import com.devcortes.entity.RAMRequest;
+import com.devcortes.componets.entity.RAM;
+import com.devcortes.componets.entity.RAMRequest;
 import com.devcortes.service.RAMService;
 /**
  * Controller for entity RAM contain GET, POST, PUT, DELETE methods

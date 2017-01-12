@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.devcortes.dao.IRAMDao;
-import com.devcortes.entity.RAM;
-import com.devcortes.entity.RAMRequest;
+import com.devcortes.componets.entity.RAM;
+import com.devcortes.componets.entity.RAMRequest;
+import com.devcortes.componets.service.IRAMDao;
 /**
  * Service for entity RAM contain methods for add, remove, update, get ram
  * @author cortes

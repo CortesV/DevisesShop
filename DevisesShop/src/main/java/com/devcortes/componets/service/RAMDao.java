@@ -1,12 +1,12 @@
-package com.devcortes.dao;
+package com.devcortes.componets.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.devcortes.entity.RAM;
-import com.devcortes.entity.RAMRequest;
+import com.devcortes.componets.entity.RAM;
+import com.devcortes.componets.entity.RAMRequest;
 import com.devcortes.repository.IRAMRepository;
 /**
  * Dao class for entity RAM contain methods for add, remove, update, get ram
