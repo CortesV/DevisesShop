@@ -8,7 +8,11 @@ import org.springframework.stereotype.Service;
 import com.devcortes.dao.IRAMDao;
 import com.devcortes.entity.RAM;
 import com.devcortes.entity.RAMRequest;
-
+/**
+ * Service for entity RAM contain methods for add, remove, update, get ram
+ * @author cortes
+ *
+ */
 @Service
 public class RAMService {
 	@Autowired	

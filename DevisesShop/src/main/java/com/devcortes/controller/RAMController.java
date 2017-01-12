@@ -12,7 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.devcortes.entity.RAM;
 import com.devcortes.entity.RAMRequest;
 import com.devcortes.service.RAMService;
-
+/**
+ * Controller for entity RAM contain GET, POST, PUT, DELETE methods
+ * @author cortes
+ *
+ */
 @RestController
 @RequestMapping(value="/ram")
 public class RAMController {

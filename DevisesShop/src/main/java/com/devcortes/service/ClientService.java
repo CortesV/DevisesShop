@@ -8,7 +8,11 @@ import org.springframework.stereotype.Service;
 import com.devcortes.dao.IClientDao;
 import com.devcortes.entity.Client;
 import com.devcortes.entity.ClientRequest;
-
+/**
+ * Service for entity Client contain methods for add, remove, update, get clients
+ * @author cortes
+ *
+ */
 @Service
 public class ClientService{
 	
