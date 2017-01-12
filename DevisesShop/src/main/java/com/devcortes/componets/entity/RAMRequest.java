@@ -1,4 +1,4 @@
-package com.devcortes.entity;
+package com.devcortes.componets.entity;
 public class RAMRequest {
 	private String producer;	
 	private String series;	

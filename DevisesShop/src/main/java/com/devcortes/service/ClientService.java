@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.devcortes.dao.IClientDao;
-import com.devcortes.entity.Client;
-import com.devcortes.entity.ClientRequest;
+import com.devcortes.componets.entity.Client;
+import com.devcortes.componets.entity.ClientRequest;
+import com.devcortes.componets.service.IClientDao;
 /**
  * Service for entity Client contain methods for add, remove, update, get clients
  * @author cortes
