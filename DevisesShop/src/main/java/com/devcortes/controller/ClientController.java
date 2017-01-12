@@ -12,7 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.devcortes.entity.Client;
 import com.devcortes.entity.ClientRequest;
 import com.devcortes.service.ClientService;
-
+/**
+ * Controller for entity Client contain GET, POST, PUT, DELETE methods
+ * @author cortes
+ *
+ */
 @RestController
 @RequestMapping(value="/client")
 public class ClientController {	
