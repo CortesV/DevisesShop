@@ -17,6 +17,13 @@ import com.devcortes.repository.IClientRepository;
 public class ClientDao implements IClientDao{
 	@Autowired
 	private IClientRepository clientRepository;	
+	
+	public IClientRepository getClientRepository() {
+		return clientRepository;
+	}
+	public void setClientRepository(IClientRepository clientRepository) {
+		this.clientRepository = clientRepository;
+	}
 	/**
 	 * Add new client
 	 * @param clientRequest

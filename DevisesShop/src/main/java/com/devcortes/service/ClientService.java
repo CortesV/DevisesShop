@@ -18,6 +18,14 @@ public class ClientService{
 	
 	@Autowired	
 	private IClientDao clientDao;
+	
+	
+	public IClientDao getClientDao() {
+		return clientDao;
+	}
+	public void setClientDao(IClientDao clientDao) {
+		this.clientDao = clientDao;
+	}
 	/**
 	 * Add new client
 	 * @param clientRequest
